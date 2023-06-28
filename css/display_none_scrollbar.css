@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body {
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar 
+{ 
+    display: none;
+} 
+/*특정 부분 스크롤바 없애기*/
+/* 보이는 스크롤바는 너비를 차지하기 때문에 안보이면서도 
+서용할 경우만 보이게 하는 기능 -> 모바일에서 사용 多 */
+.box {
+    -ms-overflow-style: none;
+}
+.box::-webkit-scrollbar { 
+     display:none;
+}
